@@ -9,7 +9,7 @@ Learn Blog
 
 asdf
 
-```javascript
+{% highlight javascript %}
 /* Some pointless Javascript */
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -21,15 +21,15 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 var s = "JavaScript syntax highlighting";
 alert(s);
-```
+{% endhighlight %}
  
-```python
+{% highlight python %}
 s = "Python syntax highlighting"
 print s
-```
+{% endhighlight %}
  
-```
+{% highlight %}
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
-```
+{% endhighlight %}
 
