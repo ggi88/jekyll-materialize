@@ -19,7 +19,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-```javascript
+{% highlight javascript %}
 /* Some pointless Javascript */
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -31,12 +31,12 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 var s = "JavaScript syntax highlighting";
 alert(s);
-```
+{% endhighlight %}
  
-```python
+{% highlight python %}
 s = "Python syntax highlighting"
 print s
-```
+{% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
