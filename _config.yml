@@ -8,22 +8,22 @@ logo: <b>ggi88</b>
 paginate: 5
 paginate_path: "/page:num/"
 owner:
-    email: codeharuka.yusa@gmail.com
+    email: -
     facebook:
-        show: true
+        show: false
         name: "Ichihara Rifa"
         url: "https://fb.me/yuneharuka"
     github:
-        show: true
+        show: false
         username: "yuune"
     twitter:
         show: false
         username: ""
     disqus:
-        show: true
+        show: false
         username: "ichihararifa"
     linkedin:
-        show: true
+        show: false
         profile: "https://linkedin.com/in/your-profile-id-here"
 sass:
     sass_dir: _sass
