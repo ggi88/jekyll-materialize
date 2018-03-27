@@ -8,7 +8,7 @@ logo: <b>ggi88</b>
 paginate: 5
 paginate_path: "/page:num/"
 owner:
-    email: -
+    email: sample@mail.com
     facebook:
         show: false
         name: "Ichihara Rifa"
