@@ -31,5 +31,5 @@ sass:
 permalink: "/article/:title"
 markdown: redcarpet
 highlighter: pygments
-gems:
+plugins:
     - jekyll-feed

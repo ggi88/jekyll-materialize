@@ -3,6 +3,7 @@ layout: post
 title:  "Testing GitHub Flavored Markdown"
 date:   2015-10-10 19:37:30
 categories: jekyll
+published: false
 ---
 Jekyll is simple but powerfull, and can hosted easely on github.
 This is cheat codes for creating beautiful article with GFM (Github Flavored Markdown).
