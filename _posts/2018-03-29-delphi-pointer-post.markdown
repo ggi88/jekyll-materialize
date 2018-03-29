@@ -13,7 +13,7 @@ published: true
 
 - 코드
 
-{% highlight delphi %}
+~~~ C#
 unit uSmartPointer;
 
 interface
@@ -52,17 +52,17 @@ begin
 end;
 
 end.
-{% endhighlight %}
+~~~
 
 - 예                                                 
 
-{% highlight delphi %}
+~~~ C#
     procedure GetData;                              
     var l: TList;                                   
     begin                                           
-      DoSmartPointer( TObject( l ), TList.Create )  
+      DoSmartPointer( TObject(l), TList.Create )  
     end;                                            
-{% endhighlight %}    
+~~~
 
 
 참조: [https://msdn.microsoft.com/ko-kr/library/hh279674.aspx](https://msdn.microsoft.com/ko-kr/library/hh279674.aspx)

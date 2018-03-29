@@ -11,7 +11,7 @@ proc: 프로시저
 
 nInterval: 지연 시간
 
-{% highlight delphi %}
+~~~ C#
 procedure SetTimeOut(proc: TProc; nInterval: Integer = 100);
 begin
   TThread.CreateAnonymousThread( procedure
@@ -26,4 +26,4 @@ begin
     end).Start;
 end;
 
-{% endhighlight %}
+~~~
