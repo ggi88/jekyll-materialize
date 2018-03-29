@@ -13,7 +13,7 @@ published: true
 
 - 코드
 
-~~~ C#
+~~~ ruby
 unit uSmartPointer;
 
 interface
@@ -54,9 +54,9 @@ end;
 end.
 ~~~
 
-- 예                                                 
 
-~~~ C#
+- 예                                                 
+~~~ ruby
     procedure GetData;                              
     var l: TList;                                   
     begin                                           
