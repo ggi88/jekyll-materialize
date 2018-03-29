@@ -33,3 +33,6 @@ markdown: redcarpet
 highlighter: pygments
 plugins:
     - jekyll-feed
+
+google_analytics:
+    ua: UA-116608951-1     
