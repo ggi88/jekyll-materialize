@@ -2,7 +2,7 @@
 title: ggi88
 description: > # this means to ignore newlines until "baseurl:"
     Blog ggi88
-url: "http://ggi88.github.io"
+url: "https://ggi88.github.io"
 baseurl: ""
 logo: <b>ggi88</b>
 paginate: 5

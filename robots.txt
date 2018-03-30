@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://ggi88.github.io/sitemap.xml
+Sitemap: https://ggi88.github.io/sitemap.xml
