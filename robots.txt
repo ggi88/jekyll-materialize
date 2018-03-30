@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://ggi88.github.io/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
