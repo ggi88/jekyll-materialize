@@ -1,2 +1,3 @@
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Allow: /
+Sitemap: http://ggi88.github.io/sitemap.xml
