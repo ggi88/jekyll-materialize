@@ -1,3 +1,7 @@
+# TEST
+http://ggi88.github.io/sitemap.xml
+http://ggi88.github.io/robots.txt
+
 # Jekyll-Materialize
 Jekyll powered blog with Google materialize css by materializecss.com
 
