@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[delphi] pcap Header 살펴보기"
+title:  "[delphi] pcap header 살펴보기"
 date:   2018-04-09 00:00:00
 categories: delphi
 published: true
