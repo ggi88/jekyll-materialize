@@ -15,14 +15,14 @@ owner:
         name: "Ichihara Rifa"
         url: "https://fb.me/yuneharuka"
     github:
-        show: false
-        username: ""
+        show: true
+        username: "ggi88/ggi88.github.io"
     twitter:
         show: false
         username: ""
     disqus:
-        show: false
-        username: "ichihararifa"
+        show: true
+        username: "ggi88"
     linkedin:
         show: false
         profile: "https://linkedin.com/in/your-profile-id-here"
@@ -36,4 +36,4 @@ plugins:
     - jekyll-feed
 
 google_analytics:
-    ua: UA-116608951-1     
+    ua: UA-116608951-1 
