@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 <div class="card z-depth-0 no-margin">
 <div class="container">
@@ -39,9 +40,7 @@ layout: default
                     {% endfor %}
                 </article>
                 <article class="post-comment">
-                    {% if page.comments != false %}
-                        {% include comments.html %}
-                    {% endif %}
+                    {% include comments.html %}
                 </article>
             </div>
         </div>
