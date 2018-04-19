@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Categories
 ---
 <div class="post">
@@ -7,5 +7,6 @@ title: Categories
 	<ul>
 		<li><a href="./delphi">delphi</a></li>
 		<li><a href="./book">book</a></li>
+		<li><a href="./network">network</a></li>
 	</ul>
 </div>
