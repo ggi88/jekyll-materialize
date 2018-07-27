@@ -2,7 +2,7 @@
 layout: post
 title:  "[batch] Hyper-V 활성/비활성화"
 date:   2018-06-11 00:00:00
-categories: delphi
+categories: batch
 published: true
 ---
 
