@@ -11,7 +11,8 @@ published: true
 
 
 ##### 반각과 전각
-  나무위키 설명: https://namu.wiki/w/%EC%A0%84%EA%B0%81%EA%B3%BC%20%EB%B0%98%EA%B0%81?from=%EB%B0%98%EA%B0%81
+  
+  - [나무위키 설명](https://namu.wiki/w/%EC%A0%84%EA%B0%81%EA%B3%BC%20%EB%B0%98%EA%B0%81?from=%EB%B0%98%EA%B0%81)
 
 
 ##### 사용법1
