@@ -33,7 +33,8 @@ echo delete Credentials
 cmdkey /delete:%destination%
 echo.
 echo add Credentials
-cmdkey /generic:%destination% /user:%user% /pass:%pass%
+:: cmdkey /generic:%destination% /user:%user% /pass:%pass%
+cmdkey /user:%destination% /user:%user% /pass:%pass%
 echo.
 echo read Credentials
 cmdkey /list: %destination%
