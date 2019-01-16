@@ -5,7 +5,7 @@ MAINTAINER Jérôme Lecorvaisier <github@lecorvaisier.fr>
 RUN apk update \
 	&& apk add py-pip \
 	&& pip install --upgrade pip \
-	&& gem install jekyll-feed rouge
+	&& gem install jekyll-feed rouge jekyll-paginate
 
 EXPOSE 4000
 

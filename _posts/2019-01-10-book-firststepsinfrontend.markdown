@@ -331,3 +331,29 @@ published: true
 ##### 채널 내 메시지 목록을 확인하는 API
 
 ##### 초기 상태로 되돌리기
+
+### Slack 스타일의 예제를 만들어보며 React/Angular/Vue.js 익히기
+
+#### React의 컴포넌트
+
+- props와 state의 역활과 사용법 이해
+- 컴포넌트 생애주기 관리
+
+##### 컴포넌트
+
+- constructor(): React 컴포넌트에서 state의 초기 상태를 설정하는데 사용, state는 컴포넌트의 렌더링과 관계된 값을 관리하는 상태
+- handleInputChange(): state에 사용자의 조작을 반영하는 역활을 밭은 메소드, render() 나 componentDidMount()와 달리, 이름을 바꿔도됨
+- handleInputChange()에는 폼에 입력된 내용을 state에 반영시키 위한 코드가 들어있다.
+- componentDidMount()는 컴포넌트 생애주기와 관련된 메서드
+- render()는 가상 DOM(VDOM)의 렌더링 처리를 담당하는 메서드
+- React에선 통상적으로 HTML 렌더링에 JSX를 사용
+- 클래스형 컴포넌트: React.Component의 하위 클래스 컴포넌트
+- 함수형 컴포넌트: Preview처럼 함수 형태로 정의되는 컴포넌트
+
+##### props 와 state
+
+- props
+    컴포넌트에 들어오는 입력을 말하며, 부모 컴포넌트에서 자식 컴포넌트로 전달된다.
+    읽기만 가능하며 변경을 불가능
+- state
+    컴포넌트 자체의 상태, 상태 변경을 통해 외부 데이터 및 사용자의 상호작용을 컴포넌트에 반영
