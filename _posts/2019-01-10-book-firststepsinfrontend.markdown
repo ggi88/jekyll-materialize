@@ -334,8 +334,9 @@ published: true
 
 ### Slack 스타일의 예제를 만들어보며 React/Angular/Vue.js 익히기
 
-#### React의 컴포넌트
+#### React의 기초지식
 
+- 공식참조 문서 확인(https://reactjs.org/docs/hello-world.html)
 - props와 state의 역활과 사용법 이해
 - 컴포넌트 생애주기 관리
 
@@ -378,10 +379,29 @@ published: true
     컴포넌트가 업데이트되었을 때 실행된다. 여기서 말하는 update란 props나 state를 말한다. 즉 props나 state가 업데이트 됨에 따라 (2번째 이후의) HTTP요청을 보낼때에는 componentDidUpdate()를 사용하는 것이 좋다.
 
 - shouldComponentUpdate()
+    성능 개선의 주요 메서드
     shouldComponentUpdate() 재 렌더링 유무를 제어
+    true는 반환하면 재 렌더링이 예정된 것이고 false를 반환하면 재 렌더링이 일어나지 않는다.
 
 - componentDidCatch
     React V16부터 새로 도입된 메서드, 자식 컴포넌트에서 발생한 에외를 catch한 경우 실행
+    어딘가에서 예외가 발생했을 때 로그를 보내거나 에러 메시지를 렌더링하는 등의 공통 처리를 하는데 적합
+
+##### 그 외 정보
+
+- v16 업데이트는 기본적으로 호환성을 유지, v15에서  deprecate된 기능이나 추천하지 않는 경우를 제외하곤 무난히 프로젝트가 이행된다.
+
+##### 공식 튜토리얼과 스타터 키드
+
+- 튜토리얼 패키지 create-react-app
+- create-react-app은 React 프로젝트 및 개발 환경을 구성해주는 명령어로 스타터 키트 중 하나
+- react-starter-kit, react-firebase-starter 등이 있다.
+
+##### 커뮤니티 / 서드파티 패키지
+
+- 공식 컨퍼런스:  https://reactjs.org/community/conferences.html
+- 서포트 페이지: https://reactjs.org/community/videos.html
+- 
 
 #### 예제 react 개발 
 
@@ -392,14 +412,15 @@ published: true
 - 채널 상세
     메시지 피드: 송신된 메시지 목록을 관리하는 컴포넌트
     메시지 폼: 새 메시지를 송신하는 역활을 담당하는 컴포넌트
+- 구현 순서
+1. 채널 목록 컴포넌트
+2. 라우팅 설정 컴포넌트 구현 이와 동시에 웹 애플리케이션으로 동작 가능
+3. 메시지 피드 컴포넌트 구현
+4. 채널 상세 컴포넌트 구현, 라우팅 설정을 함께 수정함
+5. 메시지 피드 컴포넌트 구현
+- https://github.com/okachiks/jsframeworkbook/tree/master/3_6_react
 
-##### 채널 목록 컴포넌트 구현하기
 
-##### 라우팅 설정 컴포넌트 구현하기
-
-##### GET 요청 구현하기
-
-##### 
 
 
 
